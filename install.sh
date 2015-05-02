@@ -15,9 +15,9 @@ git clone git://github.com/tridge/jsbsim.git  #download realistic sim software f
 
 adduser $USER dialout
 
-export PATH=$PATH:$HOME/jsbsim/src
-export PATH=$PATH:$HOME/ardupilot/Tools/autotest
-export PATH=/usr/lib/ccache:$PATH
+echo 'PATH=$PATH:$HOME/jsbsim/src' >> $HOME/.bashrc
+echo 'PATH=$PATH:$HOME/ardupilot/Tools/autotest' >> $HOME/.bashrc
+echo 'PATH=/usr/lib/ccache:$PATH' >> $HOME/.bashrc
 
 . ~/.bashrc
 
