@@ -13,6 +13,8 @@ cd ~   #sitl should be run from home directory
 git clone git://github.com/diydrones/ardupilot.git  #download official ardupilot code 
 git clone git://github.com/tridge/jsbsim.git  #download realistic sim software for fixed wing / plane
 
+adduser $USER dialout
+
 export PATH=$PATH:$HOME/jsbsim/src
 export PATH=$PATH:$HOME/ardupilot/Tools/autotest
 export PATH=/usr/lib/ccache:$PATH
