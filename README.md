@@ -8,7 +8,11 @@ This is just a simple, straight forward set of scripts to install and use the AP
 
 To install the sim, follow these steps. (Note, MUST be sudo)
 
+
 cd ~
+
 wget https://raw.githubusercontent.com/uavpros/simulator/master/install.sh
+
 chmod +x install.sh
+
 sudo ./install.sh
