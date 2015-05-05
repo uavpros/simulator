@@ -55,7 +55,7 @@ startsim()
 #echo $installpath$framepath
 
 cd $HOME$installpath$framepath  #change to vehicle directory
-~/ardupilot/Tools/autotest/sim_vehicle.sh -v Test$frameshort -j $numcores #--out $GCS1  #could still use -f X and -N options
+~/ardupilot/Tools/autotest/sim_vehicle.sh -j $numcores #--out $GCS1  #could still use -f X and -N options, -v ArduXX
 
 break
 
